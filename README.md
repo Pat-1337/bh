@@ -6,7 +6,7 @@
 
 <p align="center">ASCII black hole in your terminal.</p>
 
-![bh](assets/demo.png)
+![bh](assets/demo.gif)
 
 ```sh
 cargo install --git https://github.com/Pat-1337/bh
