@@ -1,12 +1,24 @@
-# bh
+<p align="center">
+  <img src="assets/logo.png" width="128" alt="bh logo">
+</p>
 
-![bh](assets/demo.gif)
+<h1 align="center">bh</h1>
 
-ASCII black hole in your terminal.
+<p align="center">ASCII black hole in your terminal.</p>
+
+![bh](assets/demo.png)
 
 ```sh
 cargo install --git https://github.com/Pat-1337/bh
 bh
 ```
 
-Run `bh --help` for options. Press `q` to quit.
+| Option    | Description                    |
+| --------- | ------------------------------ |
+| `ZOOM`    | zoom level, 5-80 (default 20)  |
+| `--clean` | hide background stars          |
+| `--black` | force a black background       |
+| `--once`  | render a single frame and exit |
+| `--help`  | show usage                     |
+
+Press `q`, `Esc` or `Ctrl+C` to quit.
